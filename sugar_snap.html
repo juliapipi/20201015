@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Start of first page -->
+    <div data-role="page">
+      <div data-role="header" data-position="fixed">
+        <h1>sugar_snap</h1>
+        <a
+          href="index.html"
+          rel="external"
+          class="ui-btn ui-corner-all ui-btn-inline ui-mini footer-button-left ui-btn-icon-left ui-icon-power"
+          >Quit</a
+        >
+      </div>
+      <!-- /header -->
+
+      <div
+        role="main"
+        class="ui-content"
+        style="height: 100%; text-align: center"
+      >
+        <div class="ui-grid-c" style="height: 100%; text-align: center">
+          <ul data-role="listview" data-inset="true">
+            <li>
+              <a href="#Vacuum">
+                <img src="./sugar_snap/a.jpg" />
+                <span
+                  class="ui-li-count"
+                  style="color: bisque;background-color: coral"
+                  >$100</span
+                >
+                <h2>Vacuum beans</h2>
+                <p>Broken Bells</p></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <img src="./sugar_snap/b.jpg" />
+                <span
+                  class="ui-li-count"
+                  style="color: bisque;background-color: coral"
+                  >$100</span
+                >
+                <h2>new beans</h2>
+                <p>Hot Chip</p></a
+              >
+            </li>
+            <li>
+              <a href="#">
+                <img src="./sugar_snap/c.jpg" />
+                <span
+                  class="ui-li-count"
+                  style="color: bisque;background-color: coral"
+                  >$100</span
+                >
+                <h2>cool beans</h2>
+                <p>Phoenix</p></a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- /content -->
+        <div data-role="footer">
+          <h4>Page Footer</h4>
+        </div>
+        <!-- /footer -->
+      </div>
+      <!-- /page -->
+      <div data-role="footer" data-position="fixed">
+        <h4>Page footer</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <div data-role="page" id="Vacuum">
+      <div data-role="header" data-position="fixed">
+        <h1>Vacuum</h1>
+        <a href="index.html">
+          <img src="./sugar_snap/a.jpg" />
+          rel="external" class="ui-btn ui-corner-all ui-btn-inline ui-mini
+          footer-button-left ui-btn-icon-left ui-icon-power" ></a
+        >
+      </div>
+
+      <div data-role="footer" data-position="fixed">
+        <h4>Page footer</h4>
+      </div>
+      <!-- /footer -->
+    </div>
+    <!-- /page -->
+  </body>
+</html>
